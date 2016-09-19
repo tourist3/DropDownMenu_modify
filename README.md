@@ -1,5 +1,9 @@
 [![](https://jitpack.io/v/dongjunkun/DropDownMenu.svg)](https://jitpack.io/#dongjunkun/DropDownMenu)
 
+#### 修改内容
+1. Tab 标签右边icon跟随内容
+2. 选择item联动（可以设置其他Tab标题）
+
 ## 简介
 一个实用的多条件筛选菜单，在很多App上都能看到这个效果，如美团，爱奇艺电影票等
 
