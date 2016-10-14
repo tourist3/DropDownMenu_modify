@@ -230,8 +230,12 @@ public class DropDownMenu extends LinearLayout {
      * @param text
      */
     public void setTabText(int position, String text) {
-        if (position != -1 && position*2 < tabMenuView.getChildCount() && tabMenuView.getChildAt(position*2) instanceof TextView) {
-            getChildTextView(position*2).setText(text);
+        try {
+            if (position != -1 && position*2 < tabMenuView.getChildCount()) {
+                getChildTextView(position*2).setText(text);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 
